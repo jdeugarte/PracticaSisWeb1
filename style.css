@@ -19,11 +19,12 @@ header
 	color: white;
 	text-transform: uppercase;
 	font-family: sans-serif;
+	clear: both;
 }
 
 .title
 {
-	width:350px;
+	width:420px;
 	font-family: sans-serif;
 	font-size:40px;
 	vertical-align: 50%;
@@ -31,18 +32,18 @@ header
 	margin-left:150px;
 	border-top: solid 3px;
 	border-color: #6A8785;
-	clear: both;
+
 }
 .container
 {
 	position: relative;
 	top:15px;
-	right:20%;
-	left:20%;
+	right:15%;
+	left:15%;
 	overflow: hidden;
 	color: #939798;
 	font-family: sans-serif;
-	width: 60%;
+	width: 70%;
 }
 
 h1
@@ -101,7 +102,7 @@ li a:visited
 .subject
 {
 	float: left;
-	margin-right: 100px;
+	margin-right: 30px;
 
 }
 
@@ -195,6 +196,9 @@ table
 	border-spacing: 0;
 	padding: 0;
 	color: #939798;
+	width:50%;
+	position:relative;
+	left: 25%;
 }
 
 
@@ -207,6 +211,10 @@ thead
 	padding: 5px,5px,0px,5px;
 	border:lightgray solid 1px;
 	background-color: #2A3C52;
+}
+thead th
+{
+	text-align: center;
 }
 
 table tr:nth-child(even)
@@ -283,4 +291,35 @@ input,textarea,select
 textarea
 {
 	height: 70px
+}
+
+
+.logo
+{
+	float: left;
+
+}
+
+.logo img
+{
+	height:100px;
+	margin-right: -30px;
+	margin-top: -25px;
+}
+
+#loco
+{
+	text-align: center;
+}
+
+.ad
+{
+	position: fixed;
+	top: 300px;
+	left: 150px;
+	margin: 10px;
+	padding: 5px;
+	border: 5px #2A3C52 solid;
+	background-color: gray;
+	height: 300px;
 }
